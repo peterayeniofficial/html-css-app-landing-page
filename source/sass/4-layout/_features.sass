@@ -1,0 +1,38 @@
+#features
+  background: #f9f9f9
+  text-align: center
+  position: relative
+  height: 500px
+  &:after
+    content: ""
+    bottom: 0
+    position: absolute
+    background: inherit
+    left: 0
+    right: 0
+    transform: skewY(-10deg)
+    transform-origin: 100%
+    z-index: -1
+    
+  h2
+    margin: 80px 0
+
+.cards
+  display: grid
+  grid-template-columns: repeat(3, auto)
+  grid-gap: 30px;
+
+.featured-card
+  background: white  
+  padding: 30px
+  border-radius: 4px
+  box-shadow: 0 12px 10px -10px rgba(0,0,0, 0.2)
+
+.featured-card--car
+  border-top: 3px solid $aqua 
+
+.featured-card--shoe
+  border-top: 3px solid $fuchsia
+
+.featured-card--phone
+  border-top: 3px solid $ocean  

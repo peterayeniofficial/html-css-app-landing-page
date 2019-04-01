@@ -4,11 +4,12 @@
   height: 700px
   color: white!important
   text-align: center
-  overflow: auto
+  overflow: hidden
 
   img 
     max-width: 500px
     width: 100%
+    he
 
   article
     width: 80%
@@ -45,5 +46,15 @@ a.download
   box-shadow: 0 12px 10px -10px rgba(0,0,0, 0.2)
   margin-left: 25px
 
-
-
+#brands ul
+  padding: 20px 0
+  background: white
+  display: grid 
+  grid-template-columns: repeat(6, auto)
+  @media only screen and (max-width: 550px)
+    grid-template-columns: repeat(3, auto)
+  
+  li
+    list-style: none 
+  li img 
+    width: 100%
