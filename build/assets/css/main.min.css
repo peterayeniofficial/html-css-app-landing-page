@@ -363,6 +363,56 @@ hr {
 .featured-card--phone {
   border-top: 3px solid #00adff; }
 
+#discount {
+  margin-top: 65px; }
+
+.discountLayout {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .discountLayout .offer {
+    width: 40%;
+    margin: 0 auto; }
+    .discountLayout .offer .button {
+      background: #009efd;
+      background: linear-gradient(90deg, #009efd 0%, #15c9cb 48%, #2af598 100%);
+      color: white;
+      padding: 20px 80px;
+      font-size: 18px; }
+
+#download {
+  background: url("../img/downloadBackground.jpg") no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  margin-top: -100px;
+  text-align: center;
+  color: white; }
+  #download h2 {
+    font-size: 68px;
+    line-height: 1.05;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0; }
+  #download p {
+    width: 100%;
+    max-width: 450px;
+    margin: 20px auto;
+    font-weight: 900; }
+  #download .button {
+    width: 250px;
+    margin: 0 15px;
+    position: relative;
+    padding-left: 50px; }
+  #download .button--apple:before, #download .button--google:before {
+    postion: absolute;
+    display: block;
+    left: 22%;
+    top: 14px; }
+  #download .button--google:before {
+    content: url("../img/playicon.png"); }
+  #download .button--apple:before {
+    content: url("../img/appleicon.png"); }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
