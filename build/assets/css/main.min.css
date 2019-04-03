@@ -413,6 +413,15 @@ hr {
   #download .button--apple:before {
     content: url("../img/appleicon.png"); }
 
+#footer {
+  text-align: center;
+  padding: 60px 0; }
+  #footer li {
+    list-style: none; }
+    #footer li a {
+      padding: 0 20px;
+      text-transform: uppercase; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
