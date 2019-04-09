@@ -6,6 +6,10 @@
   text-align: center
   overflow: hidden
 
+  @media screen and (max-width: 680px) 
+    height: 500px
+  
+
   img 
     max-width: 500px
     width: 100%
@@ -14,9 +18,19 @@
   article
     width: 80%
     margin: 0 auto
+
+    @media screen and (max-width: 680px)
+      width: 90% 
   
   h1 
     margin-bottom: 10px
+    @media screen and (max-width: 680px) 
+      margin-top: 60px
+  
+  p
+    font-weight: 300
+    @media screen and (max-width: 680px) 
+      margin-bottom: 60px
 
 #brands ul
   padding: 20px 0
