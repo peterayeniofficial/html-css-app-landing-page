@@ -325,6 +325,34 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+.main-nav {
+  display: flex;
+  marging-top: 20px;
+  padding: 0; }
+  .main-nav li {
+    list-style: none; }
+  .main-nav li:first-child {
+    margin-right: auto;
+    padding: 10px 0; }
+    .main-nav li:first-child a {
+      padding: 0; }
+  .main-nav a {
+    color: white;
+    border-radius: 4px;
+    padding: 10px 50px;
+    text-decoration: none;
+    display: block;
+    font-weight: 900;
+    text-transform: uppercase; }
+  .main-nav a:hover, .main-nav a:ctive {
+    color: #00adff; }
+
+a.download {
+  background: white;
+  color: #00adff;
+  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
+  margin-left: 25px; }
+
 #features {
   background: #f9f9f9;
   text-align: center;
@@ -454,30 +482,6 @@ hr {
     margin: 0 auto; }
   #header h1 {
     margin-bottom: 10px; }
-
-.main-nav {
-  display: flex; }
-  .main-nav li {
-    list-style: none; }
-  .main-nav li:first-child {
-    margin-right: auto;
-    padding: 10px 0; }
-    .main-nav li:first-child a {
-      padding: 0; }
-  .main-nav a {
-    color: white;
-    border-radius: 4px;
-    padding: 10px 50px;
-    text-decoration: none;
-    display: block;
-    font-weight: 900;
-    text-transform: uppercase; }
-
-a.download {
-  background: white;
-  color: #00adff;
-  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
-  margin-left: 25px; }
 
 #brands ul {
   padding: 20px 0;
