@@ -5,9 +5,23 @@
     display: flex 
     align-items: center
     justify-content: center
+    @media screen and (max-width: 680px)
+        display: block 
+    img
+        @media screen and (max-width: 680px)
+            width: 100%
+            max-width: 300px
+            text-align: center
+            margin: 0 auto 
+            display: block 
+            
+
     .offer
         width: 40%
         margin: 0 auto
+        @media screen and (max-width: 680px)
+            width: 100%
+            text-align: center
         .button
             background: rgb(0,158,253)
             background: linear-gradient(90deg, rgba(0,158,253,1) 0%, rgba(21,201,203,1) 48%, rgba(42,245,152,1) 100%)
