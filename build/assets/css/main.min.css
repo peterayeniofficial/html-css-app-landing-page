@@ -331,9 +331,16 @@ hr {
 .main-nav {
   display: flex;
   margin-top: 20px;
-  padding: 0; }
+  padding: 0;
+  transition: all 0.2s ease; }
+  .main-nav li.logo {
+    margin-right: auto;
+    padding: 10px 0; }
+    .main-nav li.logo a {
+      padding: 0; }
   .main-nav li {
-    list-style: none; }
+    list-style: none;
+    display: inline-block; }
   .main-nav li:first-child {
     margin-right: auto;
     padding: 10px 0; }
@@ -346,7 +353,8 @@ hr {
     text-decoration: none;
     display: block;
     font-weight: 900;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    transition: all 0.2s ease; }
   .main-nav a:hover, .main-nav a:ctive {
     color: #00adff; }
 
@@ -355,6 +363,38 @@ a.download {
   color: #00adff;
   box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
   margin-left: 25px; }
+
+li.nav-toggle {
+  display: none; }
+
+@media only screen and (max-width: 750px) {
+  li.nav-toggle {
+    display: block;
+    z-index: 100; }
+  .responsive-nav {
+    display: none; }
+  .unfold {
+    display: block;
+    width: 100%;
+    background: #1f1f1f;
+    position: absolute;
+    top: 0;
+    right: 0; }
+    .unfold li {
+      display: block; }
+    .unfold a {
+      padding: 40px;
+      display: block;
+      text-align: center; }
+    .unfold a:hover {
+      transform: translate(0);
+      color: #00adff; }
+    .unfold a.download {
+      background: inherit;
+      color: white;
+      margin-left: 0; }
+    .unfold a.download:hover {
+      color: #00adff; } }
 
 #features {
   background: #f9f9f9;
