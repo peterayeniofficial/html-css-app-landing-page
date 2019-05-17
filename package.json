@@ -1,12 +1,12 @@
 {
-    "name": "iamjesseshow-starter-project",
+    "name": "shoe-app",
     "version": "1.0.0",
-    "description": "Starter Project",
+    "description": "Shoe App Landing Page",
     "main": "index.html",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Jesse Showalter",
+    "author": "Peter Ayeni",
     "license": "ISC",
     "devDependencies": {
         "browser-sync": "^2.26.3",
